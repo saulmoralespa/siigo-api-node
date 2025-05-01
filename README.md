@@ -71,10 +71,10 @@ pnpm test
 
 ## License
 
-MIT
+[MIT](https://opensource.org/licenses/MIT)
 
 ---
 
-For more details, see the [Siigo API documentation](https://api.siigo.com/).
+For more details, see the [Siigo API documentation](https://siigoapi.docs.apiary.io/#reference).
 
 
