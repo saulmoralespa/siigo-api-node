@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES2015",
+      "module": "esnext",
+      "declaration": true,
+      "outDir": "dist",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "strict": true
+    },
+    "include": ["src/index.ts"]
+  }
+  

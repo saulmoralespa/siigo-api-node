@@ -1,0 +1,40 @@
+{
+  "name": "siigo-api-node",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "src/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "siigo",
+    "api",
+    "sdk",
+    "node",
+    "typescript",
+    "dian"
+  ],
+  "author": "Saúl Morales Pacheco",
+  "license": "MIT",
+  "description": "A Node.js SDK for the Siigo API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulmoralespa/siigo-api-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saulmoralespa/siigo-api-node/issues"
+  },
+  "homepage": "https://github.com/saulmoralespa/siigo-api-php#readme",
+  "dependencies": {
+    "axios": "^1.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  }
+}
