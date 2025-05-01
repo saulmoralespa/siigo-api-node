@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "test": "vitest",
-    "postinstall": "npm run build"
+    "test": "vitest"
   },
   "keywords": [
     "siigo",
